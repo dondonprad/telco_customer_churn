@@ -1,0 +1,13 @@
+prefix=/home/server-iss-mbkm/project/customer_churn/venv
+exec_prefix=/home/server-iss-mbkm/project/customer_churn/venv
+libdir=/home/server-iss-mbkm/project/customer_churn/venv/lib
+sharedlibdir=/home/server-iss-mbkm/project/customer_churn/venv/lib
+includedir=/home/server-iss-mbkm/project/customer_churn/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

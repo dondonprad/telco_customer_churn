@@ -1,0 +1,11 @@
+prefix=/home/server-iss-mbkm/project/customer_churn/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/server-iss-mbkm/project/customer_churn/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
