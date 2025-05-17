@@ -12,3 +12,4 @@ dataclasses
 scikit-optimize
 imbalanced-learn
 ipykernel
+-e .
